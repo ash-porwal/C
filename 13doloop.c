@@ -1,0 +1,14 @@
+// Do loop ... this loop will run once before checking the condition ..which(condition) is given in while loop
+#include <stdio.h>
+
+int main()
+{
+    int i = 0;
+
+    do
+    {
+        printf("The value of i is %d\n", i);
+        i++;
+    } while (i < 10);
+    return 0;
+}
